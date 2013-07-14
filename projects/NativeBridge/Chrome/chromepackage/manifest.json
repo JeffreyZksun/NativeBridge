@@ -1,0 +1,9 @@
+{
+  "name": "NativeBridge",
+  "version": "${FBSTRING_PLUGIN_VERSION}",
+  "description": "The plugin bridge between javascript and C++ code.",
+
+	"plugins": [
+    { "path": "npNativeBridge.dll", "public": true }
+  ]
+}
